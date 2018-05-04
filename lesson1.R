@@ -117,3 +117,6 @@ class(dat[2,])
 class(dat[,2])
 
 mean(as.integer(dat[2,]))
+
+sd_day_inflammation <-apply(dat, 2, sd)
+plot(sd_day_inflammation)
